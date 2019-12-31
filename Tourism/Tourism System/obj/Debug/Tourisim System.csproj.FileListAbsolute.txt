@@ -1,0 +1,16 @@
+c:\users\binod dangal\documents\visual studio 2015\Projects\Tourisim System\Tourisim System\bin\Debug\Tourisim System.exe.config
+c:\users\binod dangal\documents\visual studio 2015\Projects\Tourisim System\Tourisim System\bin\Debug\Tourisim System.exe
+c:\users\binod dangal\documents\visual studio 2015\Projects\Tourisim System\Tourisim System\bin\Debug\Tourisim System.pdb
+c:\users\binod dangal\documents\visual studio 2015\Projects\Tourisim System\Tourisim System\obj\Debug\Tourisim_System.Properties.Resources.resources
+c:\users\binod dangal\documents\visual studio 2015\Projects\Tourisim System\Tourisim System\obj\Debug\Tourisim System.csproj.GenerateResource.Cache
+c:\users\binod dangal\documents\visual studio 2015\Projects\Tourisim System\Tourisim System\obj\Debug\Tourisim System.exe
+c:\users\binod dangal\documents\visual studio 2015\Projects\Tourisim System\Tourisim System\obj\Debug\Tourisim System.pdb
+C:\Users\Binod Dangal\documents\visual studio 2015\Projects\Tourisim System\Tourisim System\obj\Debug\Tourisim_System.Form3.resources
+C:\Users\Binod Dangal\documents\visual studio 2015\Projects\Tourisim System\Tourisim System\obj\Debug\Tourisim_System.Form4.resources
+C:\Users\Binod Dangal\documents\visual studio 2015\Projects\Tourisim System\Tourisim System\obj\Debug\Tourisim_System.NTS.resources
+C:\Users\Binod Dangal\documents\visual studio 2015\Projects\Tourisim System\Tourisim System\obj\Debug\Tourisim_System.Form5.resources
+C:\Users\Binod Dangal\documents\visual studio 2015\Projects\Tourisim System\Tourisim System\bin\Debug\MySql.Data.xml
+C:\Users\Binod Dangal\documents\visual studio 2015\Projects\Tourisim System\Tourisim System\obj\Debug\Tourisim_System.Form6.resources
+C:\Users\Binod Dangal\documents\visual studio 2015\Projects\Tourisim System\Tourisim System\obj\Debug\Tourisim System.csprojResolveAssemblyReference.cache
+C:\Users\Binod Dangal\documents\visual studio 2015\Projects\Tourisim System\Tourisim System\obj\Debug\Tourisim_System.login.resources
+C:\Users\Binod Dangal\Documents\Visual Studio 2015\Projects\Tourisim System\Tourisim System\bin\Debug\MySql.Data.dll

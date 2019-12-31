@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{15DE2D63-298D-4E87-8651-DD9C53661FBE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Tourisim_System</RootNamespace>
+    <AssemblyName>Tourisim System</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=6.10.6.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="load.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="load.Designer.cs">
+      <DependentUpon>load.cs</DependentUpon>
+    </Compile>
+    <Compile Include="login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login.Designer.cs">
+      <DependentUpon>login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="admin password.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="admin password.Designer.cs">
+      <DependentUpon>admin password.cs</DependentUpon>
+    </Compile>
+    <Compile Include="user view.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="user view.Designer.cs">
+      <DependentUpon>user view.cs</DependentUpon>
+    </Compile>
+    <Compile Include="user record.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="user record.Designer.cs">
+      <DependentUpon>user record.cs</DependentUpon>
+    </Compile>
+    <Compile Include="login info.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login info.Designer.cs">
+      <DependentUpon>login info.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="load.resx">
+      <DependentUpon>load.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login.resx">
+      <DependentUpon>login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="admin password.resx">
+      <DependentUpon>admin password.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="user view.resx">
+      <DependentUpon>user view.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="user record.resx">
+      <DependentUpon>user record.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login info.resx">
+      <DependentUpon>login info.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bigstock-Incredible-Himalayas-100501688-1024x414.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bigstock-Incredible-Himalayas-100501688-1024x4141.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bigstock-Incredible-Himalayas-100501688-1024x4142.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bigstock-Incredible-Himalayas-100501688-1024x4143.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\final.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nepal-tourist-map.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nepal-tourist-map1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NTS.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\admin.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FINAL nts.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FINAL nts1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\admin1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\admin2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\admin3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\admin4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\admin5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mount_Everest_as_seen_from_Drukair2_PLW_edit.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mount_Everest_as_seen_from_Drukair2_PLW_edit1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\final1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\final11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\final12.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zip-flyer-nepal2.jpg" />
+    <None Include="Resources\zip-flyer-Nepal1.jpg" />
+    <None Include="Resources\rafting2.jpg" />
+    <None Include="Resources\rafting1.jpg" />
+    <None Include="Resources\rara2.jpg" />
+    <None Include="Resources\rara1.jpg" />
+    <None Include="Resources\pokhara2.jpg" />
+    <None Include="Resources\pokhara1.jpg" />
+    <None Include="Resources\bauddha1.jpeg" />
+    <None Include="Resources\boudha2.jpg" />
+    <None Include="Resources\bauddha11.jpeg" />
+    <None Include="Resources\bauddha12.jpeg" />
+    <None Include="Resources\everest1.jpg" />
+    <None Include="Resources\everest2.jpg" />
+    <None Include="Resources\chitwan1.jpg" />
+    <None Include="Resources\chitwan2.jpg" />
+    <None Include="Resources\lumbibi1.jpg" />
+    <None Include="Resources\lumbibi2.jpg" />
+    <None Include="Resources\mustang1.jpg" />
+    <None Include="Resources\mustang2.jpg" />
+    <None Include="Resources\FINAL nts2.jpg" />
+    <None Include="Resources\buddha was born.jpg" />
+    <None Include="Resources\buddha don.jpg" />
+    <None Include="Resources\buddha don1.jpg" />
+    <None Include="Resources\buddha don final.jpg" />
+    <None Include="Resources\1.jpg" />
+    <None Include="Resources\2.jpg" />
+    <None Include="Resources\3.jpg" />
+    <None Include="Resources\mustang21.jpg" />
+    <None Include="Resources\Bungy_1.jpg" />
+    <None Include="Resources\bunjee.jpg" />
+    <None Include="Resources\bungy swing.JPG" />
+    <None Include="Resources\nepal-bungy-jump-t-shirt.jpg" />
+    <None Include="Resources\paragliding1.jpg" />
+    <None Include="Resources\Paragliding2.jpg" />
+    <None Include="Resources\canyoning1.jpg" />
+    <None Include="Resources\canyoning2.jpg" />
+    <Content Include="Resources\pashupati.txt" />
+    <None Include="Resources\Pashupati2.jpg" />
+    <None Include="Resources\pashupati1.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
